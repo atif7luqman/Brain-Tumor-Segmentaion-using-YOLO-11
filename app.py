@@ -5,7 +5,7 @@ import numpy as np
 import cv2
 
 # Load the YOLO model
-MODEL_PATH = "D:\\Data Science\\DeepLearning\\InstanceSegmentaion\\best.pt"  # Update with your model's path
+MODEL_PATH = "best.pt"  # Update with your model's path
 model = YOLO(MODEL_PATH)
 
 # Streamlit app configuration
